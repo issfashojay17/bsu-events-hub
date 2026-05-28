@@ -1,0 +1,68 @@
+<html>
+<head>
+    <title>Community Events Hub</title>
+</head>
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    
+    <header>
+        <h1>Culturally African American Events Hub</h1>
+        <p>Find cultural events and activites</p>
+    </header>
+    <nav>
+        <a href="#events">Events</a>
+        <a href="#submit">Submit</a>
+        <a href="home.html">Home</a>
+    </nav>
+    <section id="events">
+            <div class="event-card">
+                <h2>Open Mic Night</h2>
+                <p>Saturday, May 10th, 7pm</p>
+                <p>West Chester Community Center</p>
+                <p>Music and performances by teens</p>
+                <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Open+Mic+Night" target="_blank">
+                    <button>Add to Google Calendar</button>
+                </a>
+                    
+            
+                
+                
+                <img src="https://baystatebanner.com/wp-content/uploads/2024/09/DanceSlamScans-014-1024x716.jpg">
+            </div>
+            <div class="event-card ">
+                <h2>African American Food Festival</h2>
+                
+                <p>Sunday, May 18th, 12pm</p>
+                <p>Everhart Park</p>
+                <p>Food and traidtions from all different Black cultures</p>
+                <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=African+American+Food+Festival&dates=20260518T120000/20260518T150000&details=Food+and+traditions+from+different+Black+cultures&location=Everhart+Park" target="_blank">
+                    <button>Add to Google Calendar</button>
+                    </a>
+                <img src="https://www.recordnet.com/gcdn/authoring/authoring-images/2024/08/03/NRCD/74661801007-soul-food-2024-002-a.jpg?width=700&height=467&fit=crop&format=pjpg&auto=webp">
+            </div>
+        </section>
+        <section id="submit">
+            <h2>Submit Your Event</h2>
+            <input type="text" placeholder="Event Name">
+            <input type="text" placeholder="Date and Time">
+            <input type="text" placeholder="Location">
+            <textarea placeholder="Description"></textarea>
+            <button onclick="showMessage()">Submit</button>
+            <p id="message"></p>
+        </section>
+        <footer>
+            <p>Events Hub 2027</p>
+        </footer>
+        <script>
+            function showMessage(){
+                message.innerHTML = "Event submitted, Thank you"
+            }
+               
+                
+            
+        </script>
+        
+</body>

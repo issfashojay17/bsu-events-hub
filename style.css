@@ -1,0 +1,71 @@
+body{
+    font-family: Arial;
+    background-color:#f4f4f4;
+}
+header{
+    background-color:black;
+    color:gold;
+    padding:25px;
+}
+
+nav{
+    background-color:#222;
+    padding:10px;
+}
+nav a{
+    color:white;
+    margin:15px;
+}
+nav a:hover{
+    color:gold;
+}
+#events{
+    padding:20px;
+}
+.event-card{
+    background:white;
+    padding:20px;
+}
+.event-card h2{
+    color:#222;
+}
+img{
+    width:100%;
+    margin-top:10px;
+    border-radius:10px;
+}
+#submit{
+    background:white;
+    padding:20px;
+    margin:20px;
+}
+input, textarea{
+    width:100%;
+    padding:10px;
+}
+button{
+    background-color: gold;
+    padding: 10px;
+    cursor:pointer;
+}
+button:hover{
+    background-color:black;
+    color:white;
+}
+footer{
+    background:black;
+    color:white;
+    padding:15px;
+}
+.home{
+    text-align:center;
+    padding:40px;
+}
+.home img{
+    width:50%;
+    border-radius:10px;
+}
+button:hover{
+    background-color:black;
+    color:white;
+}
